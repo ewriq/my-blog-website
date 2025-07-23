@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+
+::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+  body {
+    scrollbar-width: none; 
+    background-color: #FDF6E9;
+  }
+  
