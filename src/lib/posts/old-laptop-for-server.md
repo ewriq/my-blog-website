@@ -13,7 +13,7 @@ The first step was getting a suitable Linux distribution running, but I immediat
 *   **Troubleshooting:** I spent hours trying various solutions—fiddling with boot flags, changing USB ports, and re-creating the installation media. Ultimately, the fix was surprisingly simple: a full BIOS reset. After resetting the BIOS to its factory defaults, the drive appeared, and I could proceed.
 *   **Initial Choice - Manjaro:** I decided to install Manjaro Linux. I chose it primarily for its reputation as a lightweight and efficient distribution. Since I wanted the flexibility of a desktop environment for easier management, I opted for the full desktop version rather than a stripped-down server image.
 
-<img src="https://cdn.discordapp.com/attachments/1397285020149874728/1397293542728142939/image.png?ex=6881db45&is=688089c5&hm=cde76efd4392cb15f504ac20ce600e75dbee5c376b38f92aa7f8546274358a7e&">
+<img src="/manjora-neofetch.png">
 
 ### **Phase 2: Setting Up SSH Access**
 
@@ -44,7 +44,7 @@ After using Manjaro for a while, I realized it wasn't the best fit for my specif
 
 *   **The BIOS Nightmare:** This was a significant challenge. The process of installing another OS seemed to corrupt the bootloader or upset the fragile BIOS of this old machine. I ran into major issues getting the system to boot properly again. It was a tiring and frustrating experience that reminded me of the quirks of working with aging hardware.
 
-<img src="https://cdn.discordapp.com/attachments/1397285020149874728/1397667502775074856/image.png?ex=68828ecc&is=68813d4c&hm=86d56f79aaf4740a35dbfad1c4e1f0f3cdc114cdf5056fc28f8d4d30780bd393&">
+<img src="/mint-neofetch.png">
 
 ---
 
