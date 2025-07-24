@@ -567,6 +567,11 @@ svelte-check@^4.0.0:
     magic-string "^0.30.11"
     zimmerframe "^1.1.2"
 
+sveltekit-sitemap@^1.0.21:
+  version "1.0.21"
+  resolved "https://registry.npmjs.org/sveltekit-sitemap/-/sveltekit-sitemap-1.0.21.tgz"
+  integrity sha512-Pc8hJFqTdP9vvJfpHfzMm0oSoWVp2I/vOgReTT0lM//ZUCnfdPjAqTc/PA11CFITCCksKOrtun/o3F8ZvMAldA==
+
 tailwindcss@^4.0.0, "tailwindcss@>=3.0.0 || >= 3.0.0-alpha.1 || >= 4.0.0-alpha.20 || >= 4.0.0-beta.1", "tailwindcss@>=3.0.0 || insiders || >=4.0.0-alpha.20 || >=4.0.0-beta.1", tailwindcss@4.1.11:
   version "4.1.11"
   resolved "https://registry.npmjs.org/tailwindcss/-/tailwindcss-4.1.11.tgz"
