@@ -33,6 +33,15 @@
   });
 </script>
 
+<svelte:head>
+  <title>ewriq - blogs</title>
+  <meta name="description" content="A small, simple website where he shared his blogs." />
+
+  <meta property="og:title" content="> ewriq - blogs<" />
+  <meta property="og:description" content="A small, simple website where he shared his blogs." />
+  <meta property="og:type" content="article" />
+</svelte:head>
+
 {#if isLoading}
   <div class="fixed top-0 left-0 w-full h-1 z-50">
     <div class="h-full bg-[#6C757D] animate-pulse w-full"></div>
