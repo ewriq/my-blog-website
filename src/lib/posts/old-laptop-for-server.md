@@ -13,7 +13,7 @@ The first step was getting a suitable Linux distribution running, but I immediat
 *   **Troubleshooting:** I spent hours trying various solutions—fiddling with boot flags, changing USB ports, and re-creating the installation media. Ultimately, the fix was surprisingly simple: a full BIOS reset. After resetting the BIOS to its factory defaults, the drive appeared, and I could proceed.
 *   **Initial Choice - Manjaro:** I decided to install Manjaro Linux. I chose it primarily for its reputation as a lightweight and efficient distribution. Since I wanted the flexibility of a desktop environment for easier management, I opted for the full desktop version rather than a stripped-down server image.
 
-<img src="/manjora-neofetch.png">
+<img src="/manjora-neofetch.png"  alt="manjora neofetch">
 
 ### **Phase 2: Setting Up SSH Access**
 
@@ -28,6 +28,8 @@ With the operating system installed, the next critical step was to enable remote
 Running a server 24/7, even a low-power one, generates heat. This old laptop's cooling system wasn't designed for continuous operation, and I noticed the temperatures climbing.
 
 *   **The DIY Solution:** Since the existing cooling block was inadequate, I decided on a hardware modification. I carefully drilled ventilation holes into the laptop's back case and mounted a small external fan directly over the CPU area. To power it, I wired a connector to one of the laptop's USB ports, providing a constant and simple power source for the fan.
+
+<img src="/cooler-block.jpg" alt="cooler block">
 
 ### **Phase 4: Realizing I Chose the Wrong Distribution**
 
@@ -44,7 +46,7 @@ After using Manjaro for a while, I realized it wasn't the best fit for my specif
 
 *   **The BIOS Nightmare:** This was a significant challenge. The process of installing another OS seemed to corrupt the bootloader or upset the fragile BIOS of this old machine. I ran into major issues getting the system to boot properly again. It was a tiring and frustrating experience that reminded me of the quirks of working with aging hardware.
 
-<img src="/mint-neofetch.png">
+<img src="/mint-neofetch.png" alt="mint neofetch">
 
 ---
 
