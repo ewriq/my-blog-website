@@ -1,6 +1,8 @@
 
 import type { Post } from '$lib/types';
 import type { PageLoad } from './$types';
+import { error } from '@sveltejs/kit';
+
 
 export const load: PageLoad = async () => {
     const markdownFiles = import.meta.glob('/src/lib/posts/*.md');
@@ -18,8 +20,9 @@ export const load: PageLoad = async () => {
             };
         })
     );
-    
+
     return {
         posts
     };
 };
+
